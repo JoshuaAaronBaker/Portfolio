@@ -116,9 +116,11 @@ body {
 }
 
 ol,
-ul {
+ul,
+li {
   list-style: none;
 }
+
 
 blockquote,
 q {
@@ -246,7 +248,12 @@ a {
 
 a:hover {
   border-bottom-color: transparent;
-  color: #9bf1ff !important;
+  color: rgb(255, 0, 183) !important;
+}
+
+.view-projects:hover {
+  border-bottom-color: transparent ;
+  color: #53e3fb !important;
 }
 
 a:active {
@@ -3787,6 +3794,10 @@ body.is-preload #banner > .inner {
 }
 
 /* Menu */
+
+.nav-flex {
+  display: flex;
+}
 
 #menu {
   transition: -moz-transform 0.35s ease, opacity 0.35s ease, visibility 0.35s;
